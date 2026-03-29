@@ -1,0 +1,64 @@
+-- Q1: How many containers of antibiotics are currently available?
+100
+
+-- Q2: Which volunteer(s), if any, have phone numbers that do not start with the number 2 and whose last name is not Jones.  Query should retrieve names rather than ids. 
+Gene Lewin
+
+-- Q3: Which volunteer(s) are working on transporting tasks? Query should retrieve names rather than ids. 
+George Brewer
+
+-- Q4: Which task(s) have yet to be assigned to any volunteers (provide task descriptions, not the codes?
+Prepare 100 food packages
+Take packages to the warehouse
+
+-- Q5: Which type(s) of package contain some kind of bottle?
+food and water
+
+-- Q6: Which items, if any, are not in any packages?  Answer should be item descriptions.
+bottle of antibiotics
+bottle of aspirin
+flashlight
+pack of bandages
+
+-- Q7: Which task(s) are assigned to volunteer(s) that live in New Jersey (NJ)? Answer should have the task description and not the task ids.
+Prepare 20 children's packages
+Prepare 100 water packages
+Prepare 5,000 packages
+
+-- Q8: Which volunteers began their assignments in the first half of 2021? Answer should have the volunteer names and not their ids. 
+Joan Simmons
+Chris Jordan
+
+-- Q9: Which volunteers have been assigned to tasks that include packing spam? Answer should have the volunteer names and not their ids. 
+Julie White
+Gerry Banks
+
+-- Q10: Which item(s) (if any) have a total value of exactly $100 in one package? Answer should be item descriptions.
+Baby formula
+
+-- Q11: How many volunteers are assigned to tasks with each different status? The answer should show each different status and the number of volunteers sorted from highest to lowest)
+open|4
+closed|4
+ongoing|2
+pending|1
+
+-- Q12: Which task creates the heaviest set of packages and what is the weight? Show both the taskCode and the weight (You should be able to do this without using any sub-queries). 
+106|308.0
+
+-- Q13: How many tasks are there that do not have a type of “packing”?
+3
+
+-- Q14: Of those items that have been packed, which item (or items) were touched by fewer than 3 volunteers?  Answer should be item descriptions. 
+can of spam
+dried fruit
+men's coat
+sleeping bag
+tent
+women's coat
+
+-- Q15: Which packages have a total value of more than 100?  Show the packageIds and their value sorted from lowest to highest.
+6|150.0
+2|151.0
+4|350.0
+10|750.0
+5|1420.0
